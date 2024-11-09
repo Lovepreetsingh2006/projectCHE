@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Crowded Planet: Environmental Implications of Rising Populations. Explore the effects of overpopulation and find sustainable solutions for a better future.">
+    <meta name="keywords" content="overpopulation, environmental impacts, sustainability, climate change, population growth, ecosystem, resources">
+    <meta name="author" content="EcoImpact">
+    <title>Environmental Impacts - The Crowded Planet: Environmental Implications of Rising Populations</title>
+
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f1f1f1;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section with Background Video */
+        .hero {
+            position: relative;
+            height: 80vh;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .hero video {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 2rem;
+            color: white;
+            max-width: 1200px;
+            margin-left: 35px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .hero-logo {
+            flex: 0 0 auto;
+            margin-right: 1.5rem;
+        }
+
+        .hero-logo img {
+            width: 180px;
+            height: auto;
+        }
+
+        .hero-text {
+            flex: 1 1 auto;
+            text-align: left;
+        }
+
+        .hero-text h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-text p {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+
+        /* Navigation Styling */
+        .hero-nav {
+            position: absolute;
+            bottom: 1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(5px);
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
+            z-index: 3;
+        }
+
+        .hero-nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .hero-nav ul li {
+            margin: 0 1rem;
+        }
+
+        .hero-nav a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .hero-nav a:hover {
+            color: #4CAF50;
+            transform: scale(1.2);
+            font-weight: bold;
+        }
+
+        /* Solution Section Styling */
+        .solution-section {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: #fff;
+            max-width: 1200px;
+            margin: 3rem auto;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border-radius: 12px;
+        }
+
+        .solution-section h2 {
+            font-size: 3rem;
+            color: #4CAF50;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+
+        .solution-section p {
+            font-size: 1.25rem;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 3rem;
+        }
+
+        /* Solution Box Styling with Green to White Gradient */
+        .solution-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            margin-bottom: 2.5rem;
+            background: linear-gradient(to bottom, #4CAF50, #ffffff);
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #333;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+        }
+
+        .solution-box:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Image Styling - Ensuring Full Image Height */
+        .solution-box img {
+            width: 100%; /* Makes the image fill the container's width */
+            height: 400pxpx; /* Increased height to ensure image is fully visible */
+            object-fit: cover; /* Ensures the image covers the area without stretching */
+            border-radius: 12px 12px 0 0; /* Rounded corners for the top of the image */
+        }
+
+        /* Content Styling */
+        .solution-box div {
+            padding: 1.5rem; /* Space between the image and the text */
+            text-align: center;
+        }
+
+        .solution-box h3 {
+            font-size: 2rem;
+            color: #333;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        .solution-box p {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section with Background Video -->
+    <header class="hero">
+        <video autoplay muted loop>
+            <source src="Times Square Crowd People 2 HD Video Background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <!-- Logo and Title on Center-Left -->
+            <div class="hero-logo">
+                <img src="logo.jpg" alt="EcoImpact Logo">
+            </div>
+            <div class="hero-text">
+                <h1>The Crowded Planet</h1>
+                <p>Environmental Implications of Rising Populations</p>
+            </div>
+        </div>
+        <!-- Navigation Bar at Bottom Center with Blurred Background -->
+        <nav class="hero-nav">
+            <ul>
+                <li><a href="che.html">Introduction</a></li>
+                <li><a href="impacts.html">Environmental Impacts</a></li> <!-- Link to environmental-impacts.html -->
+                <li><a href="facts.html">Facts & Data</a></li>
+                <li><a href="solution.html">Solutions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Solutions Section -->
+    <section id="solutions">
+        <div class="solution-section">
+            <h2>Sustainable Solutions for a Crowded Planet</h2>
+            <p>To ensure a healthy and sustainable future for our planet, we must adopt solutions that address the environmental challenges arising from population growth. These solutions encompass energy, waste management, agriculture, and policy changes, all of which can help mitigate the negative effects of overpopulation.</p>
+
+            <!-- Renewable Energy Solution -->
+            <div class="solution-box">
+                <img src="resource.png" alt="Renewable Energy">
+                <div>
+                    <h3>Renewable Energy Adoption</h3>
+                    <p>The transition to renewable energy sources such as solar, wind, and hydroelectric power is essential for reducing carbon emissions and combating climate change. These sources are sustainable, produce minimal environmental impact, and can reduce our dependence on fossil fuels. The widespread adoption of renewable technologies will play a key role in powering homes and industries, reducing global carbon footprints, and fostering long-term energy sustainability.</p>
+                </div>
+            </div>
+
+            <!-- Waste Reduction Solution -->
+            <div class="solution-box">
+                <img src="recycle.png" alt="Waste Reduction">
+                <div>
+                    <h3>Waste Reduction and Recycling</h3>
+                    <p>Globally, massive amounts of waste are generated every day, contributing to landfills, pollution, and ecosystem damage. By embracing waste reduction strategies, such as recycling, composting, and reusing materials, we can significantly lower the environmental impact. Additionally, innovations in biodegradable materials and waste-to-energy technologies can further reduce waste accumulation, making waste management systems more sustainable and efficient for the long term.</p>
+                </div>
+            </div>
+
+            <!-- Sustainable Agriculture Solution -->
+            <div class="solution-box">
+                <img src="agriculture.png" alt="Sustainable Agriculture">
+                <div>
+                    <h3>Sustainable Agriculture</h3>
+                    <p>Traditional farming practices often deplete soil health, contaminate water sources, and contribute to biodiversity loss. Sustainable agriculture focuses on methods that improve the long-term viability of farming while minimizing environmental harm. Practices such as crop rotation, organic farming, and agroforestry enhance soil quality, reduce chemical use, and increase biodiversity. These methods also help farmers adapt to climate change and ensure food security for future generations.</p>
+                </div>
+            </div>
+
+            <!-- Green Urban Development Solution -->
+            <div class="solution-box">
+                <img src="greeen.png" alt="Green Urban Development">
+                <div>
+                    <h3>Green Urban Development</h3>
+                    <p>As urban populations grow, sustainable city planning is critical for reducing environmental degradation. Green urban development includes the integration of green spaces, energy-efficient buildings, and eco-friendly infrastructure. Urban farming, renewable energy integration, and efficient public transportation systems are key to reducing urban sprawl's environmental footprint. By prioritizing sustainability in urban design, cities can promote a healthier quality of life and reduce the strain on natural resources.</p>
+                </div>
+            </div>
+
+            <!-- Policy Change and Global Cooperation -->
+            <div class="solution-box">
+                <img src="policy.png" alt="Policy Change">
+                <div>
+                    <h3>Policy Change and Global Cooperation</h3>
+                    <p>Governments must implement policies that encourage sustainable practices at every level, from the individual to the corporate sector. Climate change regulations, incentives for renewable energy, and funding for sustainable infrastructure are just a few of the ways governments can drive change. Additionally, international cooperation and agreements, such as the Paris Agreement, are crucial in addressing global environmental issues and fostering a collective effort to combat overpopulation’s environmental impacts.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 EcoImpact. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
